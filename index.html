@@ -1,0 +1,85 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>forms</title>
+</head>
+<body>
+<h1>Forms</h1>
+<form action="/action_page.php">
+<fieldset>
+<legend>new user</legend>
+<label for="first name">first name:</label><br>
+<input type="text" id="first name" >
+<br><br>
+<label for="lastname">last name:</label><br>
+<input type="text" id="lastname" ><br><br>
+<label for="password">password</label>
+<input type="password" id="password"><br><br>
+<input type="submit">
+<input type="reset" id="">
+<br><br>
+<label for="first name"></label>
+<input type="text" id="first name" placeholder="enter the first name">
+<br><br>
+<label for="lastname"></label><br>
+<input type="text" id="lastname" placeholder="enter the last name" ><br><br>
+<label for="mail">email</label>
+<input type="email" id="mail">
+<br><br>
+<label for="checkbox1">b.com</label>
+<input type="checkbox"  id="checkbox1">
+<label for="checkbox2">M.B.A</label>
+<input type="checkbox"  id="checkbox2">
+<label for="checkbox3">B.SC</label>
+<input type="checkbox"  id="checkbox3">
+<br><br>
+<label for="male">male</label>
+<input type="radio" name="gender" id="male">
+<label for="female">female</label>
+<input type="radio" name="gender" id="female">
+<label for="others">others</label>
+<input type="radio" name="gender"id="others">
+<br><br>
+<input type="month">
+<input type="time">
+<input type="date">
+<input type="datetime-local">
+<input type="week">
+<br><br>
+<label for="">search</label>
+<input type="search"><br>
+<input type="range">
+</fieldset>
+</form>
+
+<fieldset>
+<form>
+<h3>select</h3>
+<label for="food">choose the items</label>
+<select id="food">
+<option selected></option>
+<optgroup label="tiffen">
+<option>idli</option>
+<option>dosa</option>
+</optgroup>
+<optgroup label="lunch">
+<option>biriyani</option>
+<option>meals</option>
+</optgroup>
+</select>
+<br>
+<h3>datalist</h3>
+<label for="cars">cars</label>
+<input list="car" id="cars">
+<datalist id="car">
+<option value="ford">
+<option value="innova">	
+<option value="tata">
+</datalist>
+<textarea rows="10"cols="10"</textarea>
+
+</form>
+</fieldset>
+
+</body>
+</html>
